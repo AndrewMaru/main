@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: sticky;
+    padding: 0;
+    /* position: fixed; */
+}
+
+header {
+    display: absolute;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ccc;
+    
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #bfbebe;
+    color: black; 
+    padding: 10px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    margin-left: 0px;
+    display: fixed;
+}
+
+
+
+.sidebar-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.sidebar-nav img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.sidebar-nav a{
+    display: flex;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bfbebe;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.top-bar img{
+    display: flex;
+}
+
+.top-bar h2{
+    margin: px 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.navbar input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: black;
+    background: white;
+}
+
+
+.top-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.top-bar .signin {
+    background-color: #007bff;
+    color: white;
+}
+.top-bar .login {
+    background-color: #ff6b00;
+    color: white;
+}
+.section {
+    padding-left: 250px;
+    margin: 0;
+    margin-left: 50px;
+}
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.main-bar{
+    justify-content: space-between;
+    position: flex;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    position: flex;
+
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 10px;
+}
+.card-content h3 {
+    margin: 0;
+    font-size: 16px;
+}
+.card-content p {
+    font-size: 14px;
+    color: #555;
+}
+.card-content .price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.searchbar{
+    display: flex;
+}
+
+.searchbar >input{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 3.375rem 0 0 3.375rem;
+    border: 10px;
+    width: 400px;
+    display: flex;
+}
+
+.searchbar > button{
+    border-radius: 0 3.375rem 3.375rem 0;
+    margin-right: 250px;
+}  
+

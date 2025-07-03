@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #8c82fc);
+}
+
+.head-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+    position: fixed;
+    top: 20px;
+    left: 370px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+.container {
+    display: flex;
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-section, .right-section {
+    padding: 40px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.left-section {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+p {
+    font-size: 16px;
+    margin: 20px 0;
+    padding-right: 5px;
+}
+
+.social-button {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+
+}
+.social-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    
+}
+
+.social-button.google {
+    background-color: #FFFFFF;
+}
+
+.social-button.microsoft {
+    background-color: #FFFFFF;
+}
+
+.social-button.apple {
+    background-color: #FFFFFF;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+label span {
+    color: red;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.signup-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-button:hover {
+    background-color: #0056b3;
+}
+
+.login-prompt {
+    margin-top: 20px;
+}
+
+.login-prompt a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
